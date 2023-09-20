@@ -20,9 +20,8 @@ Please submit a PR to add more helpful features to the boilerplate.
 In the current example Extension, links will play a note when hovered over using the WebAudio api. The note will be a random pitch everytime a link is hovered. This ability can be toggled on and off in the extension popup.
 
 ## Getting started
-`npm install`
-Regular install
-`npm run start`
-This should automatically spin up a FireFox browser in developer mode with the WebPack build folder, `/extension` installed.
+`npm install` Regular install
+
+`npm run start` This should automatically spin up a FireFox browser in developer mode with the WebPack build folder, `/extension` installed.
 
 
