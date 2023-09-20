@@ -1,0 +1,28 @@
+{
+    "name": "firefox-extension-boilerplate",
+    "version": "1.0.0",
+    "description": "FireFox Extension Developer Boilerplate",
+    "scripts": {
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "keywords": [
+        "audio"
+    ],
+    "author": "gabriel3000",
+    "license": "MIT",
+    "devDependencies": {
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.8.1",
+        "file-loader": "^6.2.0",
+        "mini-css-extract-plugin": "^2.7.6",
+        "sass": "^1.66.1",
+        "sass-loader": "^13.3.2",
+        "style-loader": "^3.3.3",
+        "ts-loader": "^9.4.4",
+        "web-ext-plugin": "^2.8.1",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-remove-empty-scripts": "^1.0.4"
+    }
+}

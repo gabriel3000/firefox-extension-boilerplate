@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Popup</title>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+    <body>
+        <h3>FF EXTENSION BOILERPLATE</h3>
+        <p>Example: Play a note when hovering links</p>
+        <div class="controls">
+            <div class="control-group">
+                <label for="io-checkbox">
+                    <span id="io-checkbox-value"></span>
+                    <input type="checkbox" id="io-checkbox" name="io-checkbox" />
+                    <span id="io-checkbox-style"></span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="gain-slider">Gain: <span id="gain-slider-value"></span></label>
+                <input type="range" min="0" max="1" value="" class="slider" id="gain-slider" step="0.01">
+            </div>
+            <div class="control-group">
+                <label for="oscillator-type">Oscillator Type: <span id="oscillator-type-value"></span></label>
+                <select id="oscillator-type"></select>
+            </div>
+        </div>
+        <script async src="browser_action.js"></script>
+    </body>
+</html>
