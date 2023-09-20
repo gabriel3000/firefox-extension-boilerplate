@@ -3,7 +3,7 @@
 ## Why?
 I wanted to build a FireFox Extension using TypeScript and SCSS. After 3 minutes of searching, nothing surfaced resembling a boilerplate that provided what I needed out-of-the-box.
 
-__note:__
+__NOTE 💫:__
 The example extension, when turned on, will play a note when a user hovers over a link using the webAudioApi. The volume will be relatively low, but this still might suprise you if you're not expecting it.
 
 ## Key WebPack package
